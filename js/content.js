@@ -6,14 +6,13 @@
 const SITE = {
   name: "Wissem Nouir",
   initials: "WN",
-  role: "Computer engineer, cybersecurity",
-  photo: "assets/photo.jpg",
-  cv: "assets/Wissem_Nouir_CV.pdf",
+  //role: "Computer engineer",
+  photo: "assets/profile_picture.png",
+  cv: "assets/CV(en).pdf",
   email: "wissemnouir1@gmail.com",
   linkedin: "https://www.linkedin.com/in/wissem-nouir",
-  github: "", // paste your GitHub URL to show the icon
-  intro: "Computer engineer specialized in cybersecurity at <a href=\"https://www.polytecsousse.tn/\" target=\"_blank\" rel=\"noopener\">École Polytechnique de Sousse</a>, with hands-on experience in SOC monitoring and incident response. My IoT and embedded systems background gives me a practical view of connected infrastructure end to end, and I focus on building automated, resilient defenses that keep operations running securely.",
-
+  github: "https://github.com/Pastacial", // paste GitHub URL to show the icon
+  intro: "Computer engineer who thrives on putting together solutions and seeing them through to deliver results. I have delivered projects in IoT networking, machine learning, software testing & development and security engineering over three year,learning each new stack by building with it. I’d love to contribute to a team that benefits from what I bring. If that’s yours, let’s talk..",
   experience: [
     { title: "Cybersecurity Intern", org: "NTNU, Gjøvik, Norway", dates: "03/2026 – 06/2026",
       points: ["**Assessed** the PHIS/OpenSILEX REST API following the OWASP Web Security Testing Guide.",
@@ -94,5 +93,5 @@ const SITE = {
     { id: "platforms", title: "[TryHackMe / HackTheBox / other]", text: "[Add: rooms, rank, what you practiced]" }
   ],
 
-  terminal: { welcome: "Welcome. Type <b>help</b> to see what this terminal knows.", flag: "[Put your own hidden CTF challenge here]" }
+  terminal: { welcome: "Welcome. Type <b>help</b> to see what this terminal knows.", flag: "CTF{Y0u_f0UNd_ME!}" }
 };
