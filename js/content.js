@@ -6,7 +6,7 @@
 const SITE = {
   name: "Wissem Nouir",
   initials: "WN",
-  //role: "Computer engineer",
+  role: "",//"Computer engineer"
   photo: "assets/profile_picture.png",
   cv: "assets/CV(en).pdf",
   email: "wissemnouir1@gmail.com",
